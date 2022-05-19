@@ -1,0 +1,28 @@
+server:
+  port: 8081
+#  error:
+#    whitelabel:
+#      enabled: false
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/supportportal
+    password: springstudent
+    username: springstudent
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQL8Dialect
+  mvc:
+    throw-exception-if-no-handler-found: true
+  web:
+    resources:
+      add-mappings: false
+
+jwt:
+  secret: 'd2h8SA*DY@#$!$J((AD(*SZ()FJ)dajj21s&AD*Hj1k'
+
+#  parola jolie: KB7r27RJ0L
+#  2Lh8AjYpxE
